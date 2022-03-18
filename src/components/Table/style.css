@@ -1,5 +1,5 @@
 table {
-  width: 50vw;
+  min-width: 40vw;
   padding: 1rem;
   border: 1.4px solid black;
   text-align: left;
@@ -11,4 +11,10 @@ td,
 th {
   border: 1px solid rgb(201, 201, 201);
   padding: 0.5rem;
+}
+
+@media screen and (max-width: 600px) {
+  table {
+    width: 90vw;
+  }
 }
